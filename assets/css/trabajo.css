@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#F1F2F6;
+}
+.container{
+    width:1100px;
+    margin:30px auto;
+}
+.comment{
+    font-family: 'Roboto';
+    padding: 1.2796em 1.2796em 0px 1.2796em;
+    background:#FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 5px 0.5px rgba(194,194,194,0.24);
+    -moz-box-shadow: 1px 1px 5px 0.5px rgba(194,194,194,0.24);
+    box-shadow: 1px 1px 5px 0.5px rgba(194,194,194,0.24);
+}
+.comment-field{
+    padding: .2rem;
+}
+.comment-header{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-header #comment-publicador{
+    display: flex;
+}
+.comment-header #comment-publicador .comment-img img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit: fill;
+}
+.comment-header #comment-publicador .comment-datos{
+    padding-top: .7em;
+    padding-left: 10px;
+    font-size: .9em;
+}
+.comment-datos .publicador-nombres p{
+    font-weight: 700;
+    color:#0F1828;
+}
+.comment-datos .comment-fecha p{
+    color:#41474A;
+    font-weight: 500;
+}
+.comment-datos .comment-fecha p span{
+    font-weight: 700;
+    color:#0F1828;
+}
+.texto-italic{
+    font-style: italic;
+}
+#comment-closed button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor:pointer;
+    background-color: #F7F7F7;
+    border:3px solid #DEDEDE;
+    outline: 0;
+    color:#DEDEDE;
+    font-size: 1.5rem;
+    line-height:1px;
+    font-weight: 600;
+}
+#comment-saludo{
+    padding: 1.5em 0 1.2em 1.5em;
+    color:#596A7C;
+}
+.comment-publicar{
+    padding:0 2em 0em 1.5em;
+}
+.comment-publicar .comment-borders{
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    display:flex;
+    align-items: center;
+    padding:.4em 0em;
+}
+.comment-publicar .img-publicar{
+    padding-right: .756789em;
+}
+.comment-publicar .img-publicar img{
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+.comment-publicar .send.input{
+    border-radius: 2.16795em;
+    font-size: 1.356789em;
+    flex-grow: 1;
+    background: #F3F3F3;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: rgba(0,0,0,.87);
+}
+.comment-publicar .send.action.input>input{
+    padding-right: 3.5em!important;
+}
+.comment-publicar .send.input>input{
+    font-size: .8em;
+    margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    flex:1 0 auto;
+    outline:0;
+    background:none;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.29428571em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .67857143em 1em;
+    border:none;
+    color: rgba(0,0,0,.87);
+    border-radius: 2.56795rem;
+    -webkit-transition: border-color .1s ease,-webkit-box-shadow .1s ease;
+    transition: border-color .1s ease,-webkit-box-shadow .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease,-webkit-box-shadow .1s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.comment-publicar .send.action.input>button.boton{
+    position: absolute;
+    right: .6rem;
+    top: .557894em;
+    outline: 0;
+    border: none;
+    background-color:#0260F4;
+    color:#FFFFFF;
+    padding: .5em .9em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.comment-publicar .send.action.input>button.boton > i{
+    font-size: 1.3em;
+}
+.comment-list{
+    padding: .2em  2.858956em 0em 1.558956em;
+}
+.comment-list .comment-conteo{
+    display: flex;
+    padding-left: .7em;
+    justify-content:space-between;
+    font-family: 'Lato';
+}
+.comments.list{
+    padding-top: 1.589655em;
+}
+.comments.list .item{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 2.1em;
+}
+.comments.list .item .img-item{
+    padding-right:.5em;
+}
+.comments.list .item .img-item>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comments.list .item .comment-item{
+    max-width:100%;
+    flex:1 1 auto;
+    background:#F2F2F2;
+    padding:.6em;
+    border-radius: 1em;
+}
+.comments.list .item .comment-item .title-user{
+    padding-bottom: .59567em;
+}
+.comments.list .item .comment-item .title-user>p{
+    font-size: 1.0225em;
+    color: #030203;
+    font-weight: 700;
+}
+.comments.list .item .comment-item .comment-user{
+    font-family: 'Lato';
+    color:#696569;
+}
